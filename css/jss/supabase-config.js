@@ -1,7 +1,8 @@
-// Chave publicável do projeto Supabase. Nunca use chave administrativa no navegador.
+// Demonstração isolada: configuração fictícia, sem conexão ao banco de produção.
+// Não publicar um fluxo autenticado antes de configurar banco demo separado com Auth e RLS.
 window.INFOTECH_SUPABASE_CONFIG = Object.freeze({
-  url: 'https://rgngqumqzylthdiazvfu.supabase.co',
-  publishableKey: 'sb_publishable_Nw2oaGdMQHVIJNhUpjv5ag_JcxmRu2w'
+  url: 'https://demo-infotech.invalid',
+  publishableKey: 'sb_publishable_DEMO_SEM_BANCO_REAL'
 });
 
 // Carrega o acabamento visual comum da conta em todas as páginas que usam a configuração.
